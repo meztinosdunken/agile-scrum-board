@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send('Welcome to the Agile Scrum Board API!');
+    res.send('Welcome to the Agile Scrum Board API! Your collaborative project management tool.');
 });
 
 io.on('connection', (socket) => {
